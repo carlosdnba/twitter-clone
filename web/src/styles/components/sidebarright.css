@@ -1,0 +1,74 @@
+.sidebar-right-container {
+  padding: 20px;
+}
+
+.sidebar-right-container .search-input {
+  /* width: 280px; */
+  width: 100%;
+  height: 48px;
+  border-radius: 100px;
+  padding: 0 16px;
+
+  background: var(--white-secondary);
+
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-right-container .search-input input {
+  margin-left: 12px;
+  width: 180px;
+  border: none;
+  background: var(--white-secondary);
+}
+
+.sidebar-right-container .search-input input::placeholder {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: var(--grey-secondary);
+}
+
+.sidebar-right-container .trending-topics, .sidebar-right-container .who-follow {
+  margin-top: 20px;
+  padding: 12px;
+  width: 100%;
+
+  background: var(--white-primary);
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-right-container .trending-topics .trending-header {
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sidebar-right-container .trending-topics .trending-header h2, .sidebar-right-container .who-follow .who-follow-title {
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 22px;
+
+  color: var(--black);
+}
+
+.sidebar-right-container .trending-topics .show-more, .sidebar-right-container .who-follow .show-more {
+  margin-bottom: 4px;
+  align-self: center;
+ 
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: var(--twitter-blue);
+}
+
+.sidebar-right-container .who-follow .who-follow-title {
+  margin-bottom: 16px;
+}

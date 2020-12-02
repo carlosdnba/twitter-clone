@@ -1,0 +1,41 @@
+.trending-topics-card-container {
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--shadow-grey);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.trending-topics-card-container .card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trending-topics-card-container .card-header span {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: var(--grey-secondary);
+}
+
+.trending-topics-card-container h2 {
+  margin-top: 4px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: var(--black);
+}
+
+.trending-topics-card-container .trending-cont {
+  margin: 4px 0 12px 0;
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: var(--grey-secondary);
+}

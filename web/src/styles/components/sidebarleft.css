@@ -1,0 +1,85 @@
+.sidebar-left-container {
+  padding: 32px 0 0 32px;
+  min-width: 236px;
+}
+
+.twitter-icon {
+  color: var(--twitter-blue);
+}
+
+.sidebar-left-container .icons-column {
+  margin-top: 32px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sidebar-left-container .icon {
+  margin-bottom: 12px;
+  margin-left: -12px;
+  padding: 0 12px 0 12px;
+
+  width: fit-content;
+  height: 40px;
+  border-radius: 100px;
+  background: var(--white);
+  border: none;
+
+  color: var(--black);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  transition: 0.2s;
+}
+
+.sidebar-left-container .icon:hover {
+  background: var(--menu-btn-hover);
+  color: var(--twitter-blue);
+}
+
+.sidebar-left-container .icon img {
+  width: 26px;
+  border-radius: 13px;
+}
+
+.sidebar-left-container .icon span {
+  margin-left: 16px;
+
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 22px;
+}
+
+.sidebar-left-container .active {
+  color: var(--twitter-blue);
+}
+
+.sidebar-left-container .tweet-btn {
+  margin-top: 8px;
+  width: 180px;
+  height: 50px;
+  box-shadow: 0px 10px 20px var(--shadow-grey);
+  border-radius: 100px;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--twitter-blue);
+  color: var(--white);
+
+  transition: 0.2s;
+}
+
+.sidebar-left-container .tweet-btn:hover {
+  background: var(--tweet-btn-hover);
+}
+
+#menu-item {
+  background: var(--white);
+  color: var(--black);
+}

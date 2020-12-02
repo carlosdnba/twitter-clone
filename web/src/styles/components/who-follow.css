@@ -1,0 +1,58 @@
+.who-follow-container {
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  
+  border-bottom: 1px solid var(--shadow-grey);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.who-follow-container img {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+}
+
+.who-follow-container .user {
+  margin-left: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.who-follow-container .user h2 {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: var(--black);
+}
+
+.who-follow-container .user span {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: var(--grey-secondary);
+}
+
+.who-follow-container button {
+  margin-left: 20px;
+  width: 80px;
+  height: 30px;
+
+  border: 1px solid var(--twitter-blue);
+  box-sizing: border-box;
+  border-radius: 59px;
+  background: none;
+
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: var(--twitter-blue);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

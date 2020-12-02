@@ -1,0 +1,58 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --twitter-blue: #1da1f2;
+  --tweet-btn-hover: rgba(29, 161, 242, 0.8);
+  --menu-btn-hover: rgba(29, 161, 242, 0.2);
+  --border: #e5e5e5;
+  --white-primary: #f6f8fa;
+  --white-secondary: #e7ecf0;
+  --shadow-grey: rgba(0, 0, 0, 0.08);
+  --grey-primary: #bdbdbd;
+  --grey-secondary: #828282;
+  --tweet-text: #4f4f4f;
+}
+
+.dark-mode {
+  --white: #000;
+  --black: #fff;
+  --menu-btn-hover: rgba(29, 161, 242, 0.3);
+  --border: #202327;
+  --white-primary :#15181c;
+  --white-secondary :#202327;
+  --grey-primary: #3d4145;
+  --grey-secondary: #6e767d;
+  --tweet-text: #d9d9d9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--black);
+  background: var(--white);
+}
+
+body, input, button, textarea {
+  font: 600 18px Roboto, sans-serif;
+}
+
+textarea:focus, input:focus, select:focus, button:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+} 
+
+
+
+
+/*
+  dark mode
+
+  dark grey: #15181c
+  black: #000;
+
+*/
